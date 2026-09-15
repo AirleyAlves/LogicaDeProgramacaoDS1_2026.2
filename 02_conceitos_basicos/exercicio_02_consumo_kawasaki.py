@@ -13,6 +13,11 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 
 # TODO: Desenvolva o algoritmo abaixo:
 #1. qual é a distância percorrida em km
-distancia_km_str=input("qual foi a distância percorrida ? ")
-distancia_km=float(distancia_km_str)
-#2 qual o total de combustivel gasto
+distancia_km=float(input("qual foi a distância percorrida ? "))
+#2. qual o total de combustivel gasto
+combustivel_gasto=float(input("quanto de combustivel foi gasto ? "))
+#3. quanto de combustivel por quilometros
+combustivel_por_km=(distancia_km/combustivel_gasto)
+#4 mostrar
+print(f"foram ultilizados {combustivel_por_km} litros de combustivel por quilometros.")
+#fim

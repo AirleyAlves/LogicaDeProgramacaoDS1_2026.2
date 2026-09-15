@@ -10,3 +10,12 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+#1.valor total consumido
+total_consumido=float(input("qual o valor total consumido no restaurante ? "))
+#2.taxa de 10% do garçom
+taxa_garcom_porcentagem=float(10/100)
+taxa_garcom_float=float(total_consumido*taxa_garcom_porcentagem)
+#3.total da conta
+total_conta=(total_consumido+taxa_garcom_float)
+#4.mostrar
+print(f"o total da conta ficou {total_conta}")

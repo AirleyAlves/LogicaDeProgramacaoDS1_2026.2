@@ -9,3 +9,15 @@ Calcule e exiba a média final ponderada utilizando apenas operadores aritmétic
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+#1.notas das avaliações
+nota_1=float(input("qual foi a sua nota na primeira avaliação ? "))
+nota_2=float(input("qual foi a sua nota na segunda avaliação ? "))
+nota_3=float(input("qual foi a sua nota na terceira avaliação ? "))
+#2.notas junto com o peso
+peso_nota_1=(nota_1*2)
+peso_nota_2=(nota_2*3)
+peso_nota_3=(nota_3*5)
+#3.média das notas
+média_notas=(peso_nota_1+peso_nota_2+peso_nota_3/3)
+#4.mostrar
+print(f"a sua média é {média_notas}")

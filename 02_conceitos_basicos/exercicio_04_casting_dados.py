@@ -10,3 +10,10 @@ Imprima a idade calculada com uma mensagem personalizada.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+#1.ano de nascimento
+ano_nascimento=int(input("qual o ano que você nasceu ? "))
+#2.idade da pessoa
+idade_2026=(2026-ano_nascimento)
+#3.mostrar
+print(f"você tem {idade_2026} anos de idade")
+

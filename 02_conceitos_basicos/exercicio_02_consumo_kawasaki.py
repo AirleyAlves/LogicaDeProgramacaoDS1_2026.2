@@ -20,4 +20,3 @@ combustivel_gasto=float(input("quanto de combustivel foi gasto ? "))
 combustivel_por_km=(distancia_km/combustivel_gasto)
 #4 mostrar
 print(f"foram ultilizados {combustivel_por_km} litros de combustivel por quilometros.")
-#fim

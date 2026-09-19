@@ -1,0 +1,7 @@
+# TODOS: Escreva o programa do par ou ímpar aqui
+numero=int(input("digite o seu numero escolhido: "))
+divisão= (numero%2)
+if divisão==0 :
+    print("o numero escolhido é par")
+else:
+    print("o numero é impar")

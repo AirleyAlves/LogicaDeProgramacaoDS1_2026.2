@@ -20,3 +20,13 @@ SUA MISSÃO:
 #         print("Senha Invalida")
 
 # TODO: Escreva aqui a versão corrigida:
+
+senha_correta = "2002"
+tentativa = input("Digite a senha de acesso: ")
+while True:
+    if tentativa == senha_correta:
+        print("Acesso Permitido")
+        break
+    else:
+        print("Senha Invalida")
+        break

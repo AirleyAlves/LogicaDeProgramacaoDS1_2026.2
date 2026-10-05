@@ -1,0 +1,10 @@
+# TODO: Desenvolva o acumulador com parada no 0
+soma = 0
+
+# Escreva a estrutura de repetição while
+numero=float(input("digite o numero:"))
+while numero !=0:
+    soma+=numero 
+    numero=float(input("digite outro numero: "))
+
+print(f"a soma total é {soma}")

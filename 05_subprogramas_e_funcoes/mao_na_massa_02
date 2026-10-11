@@ -1,0 +1,7 @@
+# TODO: Crie a função lambda aqui
+calcular_acrescimo = lambda c: (c*10/100)+c
+
+# Teste
+c=float(input("quanto é o seu salário ? "))
+acrescimo=calcular_acrescimo(c)
+print(f"o valor do seu novo salário é {acrescimo}")

@@ -1,0 +1,14 @@
+# TODO: Defina a função calcular_media e teste-a abaixo
+def calcular_media(nota1, nota2, nota3):
+    media=(nota1+nota2+nota3)/3
+    return media
+    pass
+
+# Teste com notas de exemplo
+aluno=str(input("digite o nome do estudante "))
+nota1=int(input("digite a 1º nota do estudante "))
+nota2=int(input("digite a 2º nota do estudante "))
+nota3=int(input("digite a 3º nota do estudante "))
+media=calcular_media(nota1,nota2,nota3) 
+
+print(f"a nota do aluno {aluno} foi {media}")
